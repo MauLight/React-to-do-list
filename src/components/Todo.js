@@ -63,7 +63,7 @@ const Todo = (props) => {
           </label>
         </div>
         <div className="btn-group">
-          <button ref= {editButtonRef} type="button" className="btn" onClick={() => setEditing(true)} >
+          <button ref= {editButtonRef} type="button" className="btn w-50" onClick={() => setEditing(true)} >
             Edit <span className="visually-hidden">{props.name}</span>
           </button>
           <button

@@ -6,9 +6,10 @@ import './index.css';
 import App from './App';
 
 const DATA = [
-  {id: 'todo-1', name: 'eat', completed: true},
-  {id: 'todo-2', name: 'work', completed: false},
-  {id: 'todo-3', name: 'sleep', completed: false},
+  {id: 'todo-1', name: 'Write first act of outline', completed: true},
+  {id: 'todo-2', name: 'Write first part of second act of outline', completed: false},
+  {id: 'todo-3', name: 'Write second part of second act of outline', completed: false},
+  {id: 'todo-4', name: 'Write third act of outline', completed: false},
 ];
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
