@@ -4,7 +4,7 @@
   "name": "To-Do List",
   "action": {
       "default_popup": "index.html",
-      "default_icon": "todo.ico"
+      "default_icon": "favicon.ico"
   },
   "permissions": [
       "tabs"
